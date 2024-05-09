@@ -182,6 +182,7 @@ pipes = Pipes()
 bird = Bird()
 game = GameManager()
 
+# игровой цикл
 while True:
     events = pygame.event.get()
     for e in events:
